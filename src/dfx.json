@@ -1,0 +1,16 @@
+
+{
+  "canisters": {
+    "ICP_Pre_Assessment": {
+      "main": "src/ICP_Pre_Assessment/main.mo",
+      "type": "motoko"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
